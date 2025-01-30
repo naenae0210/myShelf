@@ -1,0 +1,31 @@
+# Go build artifacts
+/bin/
+/obj/
+
+# Go module cache
+/pkg/
+
+# Local Go mod and vendor directory
+/vendor/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# MacOS Finder
+.DS_Store
+
+# Environment variables file
+.env
+
+# sqlc generated files
+/internal/db/sqlc/generated/
+
+# Migrations folder
+/migrations/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
